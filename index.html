@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Densité de Population France</title>
+    <title>Densité de Population France + Points</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
     <style>
@@ -13,61 +13,43 @@
 <div id="map"></div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script>
 
-// Initialiser la carte
+<script>
 const map = L.map('map').setView([46.5, 2.5], 6);
 
-// Fond de carte simple
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+// Fond de carte OpenStreetMap
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
 
-// Charger GeoJSON des départements français
-fetch('https://france-geojson.gregoiredavid.fr/repo/departements.geojson')
-.then(res => res.json())
-.then(data => {
+// Couche densité population FrancePixels (tuiles raster)
+L.tileLayer('https://tiles.comeetie.fr/population/{z}/{x}/{y}.png', {
+    attribution: '&copy; FrancePixels',
+    opacity: 0.6
+}).addTo(map);
 
-    // Données simplifiées densité population par département (habitants/km²)
-    const densite = {
-        "75": 20000,  // Paris très dense
-        "93": 7000,   // Seine-Saint-Denis
-        "69": 570,    // Rhône
-        "13": 400,    // Bouches-du-Rhône
-        "31": 230,    // Haute-Garonne
-        "33": 160,    // Gironde
-        "59": 450,    // Nord
-        "44": 220,    // Loire-Atlantique
-        "06": 250,    // Alpes-Maritimes
-        "34": 210,    // Hérault
-        "35": 170     // Ille-et-Vilaine
-        // Ajoute d'autres départements au besoin
-    };
+// Charger GeoJSON de tes points personnalisés
+fetch('geo1.geojson')
+    .then(response => response.json())
+    .then(data => {
+        L.geoJSON(data, {
+            pointToLayer: (feature, latlng) => {
+                return L.circleMarker(latlng, {
+                    radius: 8,
+                    fillColor: feature.properties.class_color || "#3388ff",
+                    color: "#000",
+                    weight: 1,
+                    opacity: 1,
+                    fillOpacity: 0.9
+                }).bindPopup(`
+                    <b>Modèle:</b> ${feature.properties.modele}<br>
+                    <b>Payé:</b> ${feature.properties.paid}<br>
+                    <b>Classe:</b> ${feature.properties.class_type}
+                `);
+            }
+        }).addTo(map);
+    });
 
-    // Fonction pour définir la couleur selon la densité
-    function getColor(d) {
-        return d > 5000 ? '#800026' :
-               d > 1000 ? '#BD0026' :
-               d > 500  ? '#E31A1C' :
-               d > 200  ? '#FC4E2A' :
-               d > 100  ? '#FD8D3C' :
-               d > 50   ? '#FEB24C' :
-                          '#FFEDA0';
-    }
-
-    // Style des départements
-    function style(feature) {
-        return {
-            fillColor: getColor(densite[feature.properties.code] || 0),
-            weight: 1,
-            opacity: 1,
-            color: 'white',
-            dashArray: '3',
-            fillOpacity: 0.7
-        };
-    }
-
-    // Ajouter la couche GeoJSON sur la carte
-    L.geoJson(data, {style: style}).addTo(map);
-});
 </script>
 </body>
 </html>
