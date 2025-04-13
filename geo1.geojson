@@ -1,55 +1,2438 @@
-{
-  "type": "FeatureCollection",
-  "features": [
+
     {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [2.3522, 48.8566] },
-      "properties": { "ville": "Paris" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [4.8357, 45.7640] },
-      "properties": { "ville": "Lyon" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [1.4442, 43.6045] },
-      "properties": { "ville": "Toulouse" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-1.5534, 47.2184] },
-      "properties": { "ville": "Nantes" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [5.3698, 43.2965] },
-      "properties": { "ville": "Marseille" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [7.2619, 43.7102] },
-      "properties": { "ville": "Nice" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-0.5792, 44.8378] },
-      "properties": { "ville": "Bordeaux" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [3.8767, 43.6108] },
-      "properties": { "ville": "Montpellier" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [3.0586, 50.6292] },
-      "properties": { "ville": "Lille" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [4.0317, 49.2583] },
-      "properties": { "ville": "Reims" }
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.907399654388428,
+              44.4191780090332
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.084420919418335,
+              45.77999877929688
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.053532838821411,
+              50.62953186035156
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              0.994981586933136,
+              47.12188339233398
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.6297768950462341,
+              44.87711334228516
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.630008459091187,
+              49.56500625610352
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.066924095153809,
+              50.599609375
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.375299096107483,
+              48.72705841064453
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.811355113983154,
+              45.37336349487305
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.686789035797119,
+              45.76069259643555
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.5674835443496704,
+              44.83652877807617
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              7.75470495223999,
+              48.57516479492188
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.353598594665527,
+              43.82245635986328
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              2.297442674636841,
+              49.89443588256836
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.693657755851746,
+              46.80587387084961
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -1.642370700836182,
+              48.13624954223633
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              0.198900431394577,
+              47.998779296875
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.290773391723633,
+              45.45310974121094
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.664699554443359,
+              45.23896026611328
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.381476879119873,
+              43.29748153686523
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.346648216247559,
+              43.82764053344727
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.00292706489563,
+              47.0706787109375
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              2.3666832447052,
+              48.88403701782227
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.486794114112854,
+              49.08827972412109
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.6338468194007874,
+              44.82786560058594
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.446941375732422,
+              43.53082656860352
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.078550934791565,
+              49.91903686523438
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.529169082641602,
+              43.40116119384766
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.908390522003174,
+              44.41984176635742
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              6.124946594238281,
+              45.89974975585938
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.081719636917114,
+              50.36771011352539
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              0.3405146896839142,
+              46.57952880859375
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -1.609539866447449,
+              47.25228118896484
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.895564317703247,
+              43.63435363769531
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.030079364776611,
+              49.26875305175781
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.080358028411865,
+              49.23064804077148
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.603956580162048,
+              48.79390716552734
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              7.011573791503906,
+              43.55134582519531
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.742085933685303,
+              45.18452453613281
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.443042278289795,
+              43.53044891357422
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.5802143812179565,
+              44.83828735351562
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.826512336730957,
+              45.77085876464844
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.910863637924194,
+              47.90391159057617
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.874628067016602,
+              45.76706314086914
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.835146,
+              45.762241
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              0.6714432835578918,
+              47.39084243774414
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.096997261047363,
+              45.77978897094727
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              2.376606,
+              48.861053
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              2.325920581817627,
+              48.96272277832031
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.908696174621582,
+              43.13807678222656
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              6.180325031280518,
+              49.11412811279297
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -1.560958504676819,
+              47.23453140258789
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "YES",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -1.554136157035828,
+              47.21863555908203
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.385537147521973,
+              45.43276977539062
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              0.08597048372030258,
+              48.42758178710938
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.932252407073975,
+              43.12393188476562
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              6.080345153808594,
+              44.55786514282227
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.383505702018738,
+              48.17884826660156
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -1.565575003623962,
+              47.22652435302734
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.092962384223938,
+              49.44457626342773
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              2.337132692337036,
+              48.82854080200195
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.832011222839355,
+              45.7578125
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -1.642305135726929,
+              48.12780380249023
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              7.814281463623047,
+              48.62179183959961
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.935734391212463,
+              48.19286727905273
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -1.580399394035339,
+              47.21854019165039
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.035356044769287,
+              49.25653457641602
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.5892963409423828,
+              44.80258941650391
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.941865921020508,
+              43.12148284912109
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.830257892608643,
+              45.76345443725586
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.471324801445007,
+              43.60051345825195
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.263553500175476,
+              45.82590866088867
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.7659659385681152,
+              48.07009506225586
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -1.681435585021973,
+              48.10793685913086
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              2.446119070053101,
+              44.92987060546875
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.06210732460022,
+              50.64308547973633
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.833663463592529,
+              45.76278305053711
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              2.246939182281494,
+              48.95697402954102
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -1.560033321380615,
+              47.23123168945312
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.422723293304443,
+              45.41845321655273
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.384931564331055,
+              45.43777847290039
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.043464183807373,
+              47.31959915161133
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              2.137680768966675,
+              48.77066802978516
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.263604760169983,
+              45.81166458129883
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.799245357513428,
+              45.74410247802734
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.5762207508087158,
+              44.83461380004883
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.410435676574707,
+              43.32907485961914
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              2.659157752990723,
+              48.5457878112793
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.489198565483093,
+              48.43222808837891
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              2.388044,
+              48.859524
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              2.329239130020142,
+              48.86736679077148
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.074973106384277,
+              48.29470443725586
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.921719789505005,
+              47.90273284912109
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.825911521911621,
+              43.93704986572266
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.920834541320801,
+              45.56646728515625
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.622588157653809,
+              43.25876998901367
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.352850914001465,
+              43.82296371459961
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              0.4061963558197021,
+              49.59900283813477
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.878012657165527,
+              45.76677703857422
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.250020027160645,
+              45.72431182861328
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              0.9922791719436646,
+              47.12570190429688
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -1.566978812217712,
+              47.21673583984375
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.837654113769531,
+              45.76652526855469
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              0.1962170451879501,
+              48.00394439697266
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.740825653076172,
+              45.18387222290039
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              2.35554838180542,
+              48.93231201171875
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.835447311401367,
+              45.76660537719727
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -1.555418133735657,
+              47.23037338256836
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.334075689315796,
+              49.37347030639648
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.887191295623779,
+              45.69729995727539
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.836589813232422,
+              45.76567840576172
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -1.734790682792664,
+              48.02411651611328
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -1.557115077972412,
+              47.23046112060547
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.734374046325684,
+              45.18473434448242
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              2.138597011566162,
+              48.79632949829102
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              6.924674034118652,
+              43.65878295898438
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              2.354171752929688,
+              48.93500137329102
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.101856708526611,
+              49.43905258178711
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              0.2046888917684555,
+              48.00427627563477
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.439982652664185,
+              43.60487747192383
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.09232759475708,
+              45.77645874023438
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.018922805786133,
+              47.32670974731445
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.370467185974121,
+              43.28019714355469
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              2.24942946434021,
+              48.94610214233398
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              6.079594135284424,
+              44.55941772460938
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.890117168426514,
+              44.93282318115234
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.444246888160706,
+              43.60446166992188
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.3743265271186829,
+              49.17190170288086
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.455491542816162,
+              43.52877807617188
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.901809692382812,
+              47.90484237670898
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.56597900390625,
+              43.29417419433594
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.876503050327301,
+              47.05838394165039
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              2.299378156661987,
+              48.90514755249023
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              2.46356725692749,
+              48.87147903442383
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              0.1979771107435226,
+              48.00364303588867
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.378875732421875,
+              43.29943084716797
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              2.450075149536133,
+              48.86553955078125
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              0.6749489903450012,
+              47.39030838012695
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              0.6633323431015015,
+              47.37789535522461
+            ]
+          },
+          "properties": {
+            "modele": "Victoria",
+            "paid": "NO",
+            "class_type": "MILI",
+            "class_color": "#ff0000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              4.796204566955566,
+              45.81609725952148
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              0.3420588076114655,
+              46.56897735595703
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.084962129592896,
+              45.7791862487793
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -1.556180596351624,
+              47.22985458374023
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.478308796882629,
+              43.58347320556641
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              3.071382284164429,
+              50.62350845336914
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              2.342858552932739,
+              48.85552215576172
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              2.680456161499023,
+              48.53524780273438
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -1.687453866004944,
+              48.10885238647461
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              0.1655609905719757,
+              47.28662109375
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              7.126012325286865,
+              43.58081436157227
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.451021671295166,
+              43.52985382080078
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              1.446491479873657,
+              43.60030364990234
+            ]
+          },
+          "properties": {
+            "modele": "Ludivine",
+            "paid": "NO",
+            "class_type": "Ludivine",
+            "class_color": "#6f1167"
+          }
+        }
+      ]
     }
-  ]
-}
